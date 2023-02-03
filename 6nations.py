@@ -5,12 +5,19 @@ import utils
 def main():
     deposit = 100
 
+    """ choices = [
+        {'wales to beat ireland':(21,10)} #wales to beat ireland
+        ,{'scotland to beat england':(13,5)} #scotland to beat england
+        ,{'FRANCE TO BEAT ITALY':(1,40)} #FRANCE TO BEAT ITALY
+        ,{'falateau to score try':(6,1)} #falateau to score try
+        ,{'less than 46.5 points in scotland vs england':(4,5)} #less than, 46.5 points in scotland england
+        ] """
+    
     a = (21,10) #wales to beat ireland
     b = (13,5) #scotland to beat england
     c = (1,40) #FRANCE TO BEAT ITALY
     d = (6,1) #falateau to score try
     e = (4,5) #less than, 46.5 points in scotland england  
-
     choices = [a,b,c,d,e]
     num_of_bets = len(choices)
 
